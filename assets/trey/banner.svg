@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Trey — Indie Game Developer</title>
+  <desc id="desc">A dark technical banner with a glowing signal waveform, grid lines, and game development typography.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d13"/>
+      <stop offset="0.55" stop-color="#111b25"/>
+      <stop offset="1" stop-color="#071014"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4de1cf" stop-opacity="0.05"/>
+      <stop offset="0.45" stop-color="#4de1cf"/>
+      <stop offset="1" stop-color="#8daeff" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#90a9b9" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="mist">
+      <stop offset="0" stop-color="#1ba99c" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#1ba99c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <rect width="1600" height="420" fill="url(#grid)"/>
+  <ellipse cx="1210" cy="220" rx="470" ry="260" fill="url(#mist)"/>
+  <path d="M0 342H1600" stroke="#78909c" stroke-opacity=".20"/>
+  <path d="M0 72H1600" stroke="#78909c" stroke-opacity=".12"/>
+  <g fill="none" stroke="url(#signal)" stroke-width="3" filter="url(#glow)" opacity=".9">
+    <path d="M720 224h90l18-8 18 16 20-32 20 54 24-94 22 120 22-62 20 18 22-10h42l22-5 20 11h240"/>
+    <path d="M850 298h110l16-6 15 12 18-24 18 40 18-68 20 78 18-42 20 10h170" stroke-width="1.5" opacity=".55"/>
+  </g>
+  <g fill="#65e5d4" opacity=".78">
+    <circle cx="906" cy="200" r="3"/><circle cx="1052" cy="160" r="3"/><circle cx="1146" cy="224" r="3"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="112" y="158" fill="#6ce4d2" font-size="17" letter-spacing="7">INDEPENDENT GAME DEVELOPMENT</text>
+    <text x="108" y="248" fill="#f2f6f8" font-size="82" font-weight="700" letter-spacing="2">TREY</text>
+    <text x="114" y="294" fill="#b8c6cf" font-size="22" letter-spacing="3">GAMES  /  3D ART  /  TECHNICAL PIPELINES</text>
+    <text x="114" y="350" fill="#6f8794" font-size="14" letter-spacing="3">DESIGN WITH INTENT  ·  BUILD WITH DISCIPLINE</text>
+  </g>
+  <g stroke="#65e5d4" stroke-opacity=".65" fill="none">
+    <path d="M72 60h42M72 60v42M1528 60h-42M1528 60v42M72 360h42M72 360v-42M1528 360h-42M1528 360v-42" stroke-width="2"/>
+  </g>
+  <text x="1490" y="395" fill="#7a929d" font-family="Consolas, monospace" font-size="11" text-anchor="end" letter-spacing="2">SIGNAL // 001</text>
+</svg>
