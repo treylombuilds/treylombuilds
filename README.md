@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/trey-github-banner.svg" alt="Trey — building games, tools and creative pipelines" width="100%" />
+  <img src="./assets/trey/banner.svg" alt="Trey — building games, tools and creative pipelines" width="100%" />
 </p><p align="center">
   <strong>Indie Game Developer · Game Art · Technical Art · AI-assisted Production</strong>
 </p><p align="center">
